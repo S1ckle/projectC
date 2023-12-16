@@ -18,7 +18,6 @@ float platformSpeed = 0.0;
 
 
 
-
 int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "Game");
 
@@ -34,8 +33,7 @@ int main() {
 
 
         sf::Texture texture;
-        if (!texture.loadFromFile("Fonts/56.PNG")) {
-           //C:/Users/areme/CLionProjects/untitled1/Fonts/56.PNG
+        if (!texture.loadFromFile("C:/Users/areme/CLionProjects/untitled1/Fonts/56.PNG")) {
 // Обработка ошибки загрузки текстуры
         }
         sf::Sprite sprite(texture);

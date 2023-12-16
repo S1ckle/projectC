@@ -1,5 +1,5 @@
 #include "Ball1.h"
-
+#include <math.h>
 Ball1::Ball1() {
         ball1.setRadius(4);
         ball1.setFillColor(sf::Color::Red);

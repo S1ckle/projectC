@@ -2,7 +2,7 @@
 
 
 Result::Result(int& c1, int& c2) : counter1(c1), counter(c2) {
-        if (!font.loadFromFile("Fonts/arial.ttf")) {
+        if (!font.loadFromFile("C:/Users/areme/CLionProjects/untitled1/Fonts/arial.ttf")) {
         }
     //C:/Users/areme/CLionProjects/untitled1/Fonts/arial.ttf
         text.setFont(font);

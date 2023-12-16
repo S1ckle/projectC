@@ -6,7 +6,6 @@ private:
     sf::CircleShape ball1;
     sf::Vector2f gravity;
     float gravityStrength;
-
 public:
     Ball1();
 
