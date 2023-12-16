@@ -3,18 +3,23 @@ project(untitled1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
 set(SOURCES
         main.cpp
+        Ball.hpp
+        Ball.cpp
+        Ball1.hpp
+        Ball1.cpp
+        Menu.hpp
         Menu.cpp
+        Result.hpp
+        Result.cpp
 )
-set(HEADERS
-        Menu.h
+
+add_executable(untitled1 main.cpp
 )
-add_executable(untitled1 main.cpp)
 
 
-include_directories(headers C:/SFML/include)
+include_directories( ${CMAKE_SOURCE_DIR})
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 find_package(SFML REQUIRED system window graphics network audio)

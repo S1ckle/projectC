@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_untitled1: phony || CMakeFiles/untitled1
 build CMakeFiles/untitled1.dir/main.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/areme/CLionProjects/untitled1/main.cpp || cmake_object_order_depends_target_untitled1
   DEP_FILE = CMakeFiles\untitled1.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/areme/CLionProjects/untitled1/headers -IC:/SFML/include
+  INCLUDES = -IC:/Users/areme/CLionProjects/untitled1 -IC:/SFML/include
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
